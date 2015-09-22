@@ -11,7 +11,7 @@
       console.log(stream);
       main_video.src = window.URL.createObjectURL(stream);
       main_video.play();
-      sub_video.src = window.URL.createObjectURL(stream);
+      sub_video.src = main_video.src;
       return sub_video.play();
     }, function(error) {
       alert(error);
