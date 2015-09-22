@@ -8,7 +8,7 @@ video {
   height: 300px;
   position: absolute;
   top: 0px;
-  left: 800px;
+  left: 400px;
   clip: rect(100, 75, 200, 150);
   -webkit-transform: scale(2);
 }
