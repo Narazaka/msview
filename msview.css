@@ -9,6 +9,6 @@ video {
   position: absolute;
   top: 0px;
   left: 400px;
-  clip: rect(100, 75, 200, 150);
+  clip: rect(100px, 75px, 200px, 150px);
   -webkit-transform: scale(2);
 }
