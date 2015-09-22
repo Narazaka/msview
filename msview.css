@@ -1,8 +1,14 @@
 video {
+  width: 400px;
+  height: 300px;
   -webkit-filter: invert(100%);
 }
 #sub {
-  -webkit-transform: scale(2);
+  width: 400px;
+  height: 300px;
   position: absolute;
-  clip: 160, 120, 320, 240;
+  top: 0px;
+  left: 800px;
+  clip: 100, 75, 200, 150;
+  -webkit-transform: scale(2);
 }
