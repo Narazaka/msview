@@ -1,5 +1,9 @@
-video
-  -webkit-filter: invert(100%)
+video{
+  -webkit-filter: invert(100%);
+}
 
-#sub
-  -webkit-transform scale(2.0)
+#sub{
+  -webkit-transform: scale(2.0);
+  position: absolute;
+  clip: 160,120,320,240;
+}

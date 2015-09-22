@@ -3,4 +3,6 @@ video {
 }
 #sub {
   -webkit-transform: scale(2);
+  position: absolute;
+  clip: 160, 120, 320, 240;
 }
