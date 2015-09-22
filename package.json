@@ -14,5 +14,8 @@
     "http-server": "^0.8.0",
     "jade": "^1.11.0",
     "stylus": "^0.52.4"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^0.33.0"
   }
 }
