@@ -2,5 +2,5 @@ video {
   -webkit-filter: invert(100%);
 }
 #sub {
-  transform: scale(2, 2);
+  -webkit-transform: scale(2);
 }
