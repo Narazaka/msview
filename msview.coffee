@@ -11,5 +11,15 @@ window.onload = ->
     alert error; console.error error
 
   scale = document.getElementById('scale')
-  scale.oninput = ->
+  scale?.oninput = ->
     main_video.style.transform = 'scale(' + scale.value + ')'
+
+  contrast = document.getElementById('contrast')
+  contrast?.oninput = ->
+    main_video.style.webkitFilter =
+      main_video.style.webkitFilter.replace /contrast\([-0-9.]*\)/, "contrast(#{contrast.value})"
+
+  brightness = document.getElementById('brightness')
+  brightness?.oninput = ->
+    main_video.style.webkitFilter =
+      main_video.style.webkitFilter.replace /brightness\([-0-9.]*\)/, "brightness(#{brightness.value})"
