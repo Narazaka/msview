@@ -49,6 +49,9 @@ window.onload = ->
       scale?.value = config.scale
       contrast?.value = config.contrast
       brightness?.value = config.brightness
+      scale?.input()
+      contrast?.input()
+      brightness?.input()
     catch
       undefined
   
