@@ -12,7 +12,18 @@ window.onload = ->
 
   main_video = document.getElementById('main')
 
-  navigator.getUserMedia {video: true}, (stream) ->
+  navigator.getUserMedia {
+    video:
+      optional: [
+        { minWidth: 2560 }
+        { minWidth: 2448 }
+        { minWidth: 1920 }
+        { minWidth: 1280 }
+        { minWidth: 1024 }
+        { minWidth: 640 }
+        { minWidth: 320 }
+      ]
+  }, (stream) ->
     console.log stream
     main_video.src = window.URL.createObjectURL(stream)
     main_video.play()
