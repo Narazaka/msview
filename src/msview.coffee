@@ -15,12 +15,22 @@ window.onload = ->
   navigator.getUserMedia {
     video:
       optional: [
+        { minWidth: 3840 }
+        { minWidth: 3648 }
+        { minWidth: 3264 }
         { minWidth: 2560 }
-        { minWidth: 2448 }
+        { minWidth: 2048 }
         { minWidth: 1920 }
+        { minWidth: 1600 }
+        { minWidth: 1440 }
+        { minWidth: 1400 }
+        { minWidth: 1366 }
         { minWidth: 1280 }
         { minWidth: 1024 }
+        { minWidth: 960 }
+        { minWidth: 800 }
         { minWidth: 640 }
+        { minWidth: 480 }
         { minWidth: 320 }
       ]
   }, (stream) ->
