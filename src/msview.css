@@ -23,7 +23,7 @@ html, body{
 .controls .control{
   margin: 0;
   padding: 0;
-  width: 50%;
+  width: 33%;
   display: inline-block;
 }
 .controls .control .label{
